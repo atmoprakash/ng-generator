@@ -1,0 +1,20 @@
+{
+  "name": "generator-ng-generator",
+  "version": "0.1.5",
+  "description": "Custom ng generator",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "ng-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  }
+}
