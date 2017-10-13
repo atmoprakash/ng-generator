@@ -1,6 +1,6 @@
 {
   "name": "generator-ng-generator",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Custom ng generator",
   "license": "UNLICENSED",
   "repository": {
@@ -15,18 +15,7 @@
     "ng-generator"
   ],
   "dependencies": {
-    "chalk": "^2.1.0",
-    "command-exists": "^1.2.2",
     "yeoman-generator": "^1.1.1",
-    "yeoman-welcome": "^1.0.1",
-    "yosay": "^2.0.1"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "devDependencies": {
-    "mocha": "^4.0.1",
-    "yeoman-assert": "^3.1.0",
-    "yeoman-test": "^1.7.0"
+    "yeoman-welcome": "^1.0.1"
   }
 }

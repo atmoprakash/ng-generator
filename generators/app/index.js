@@ -1,12 +1,28 @@
 var Generator = require('yeoman-generator');
+const chalk = require('chalk');
+const yosay = require('yosay');
 
 module.exports = class extends Generator {
-    // The name `constructor` is important here
-    method1() {
-        this.log('method 1 just ran');
+
+    constructor(args, opts) {
+        super(args, opts);
     }
 
-    method2() {
-        this.log('method 2 just ran');
+    createProject() {
+        console.log(chalk.blue('Creating New Project'));
     }
+
+    initializing() {
+        console.log(yosay(
+            'Welcome to the ' + chalk.red('NG Project Generator') + ' !'
+        ));
+    }
+
+    writing() {
+        this.fs.copyTpl(
+            this.templatePath('_package.json'),
+            this.destinationPath('package.json')
+        );
+    }
+
 };

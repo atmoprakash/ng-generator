@@ -1,1 +1,2 @@
-# ng-generator
+
+# Custom Yeoman Generator
